@@ -545,3 +545,4 @@ contract WildToken is ERC20 {
         _mint(msg.sender, 270000000000 * (10 ** uint256(decimals())));
     }
 }
+// Token created by yudhishtran

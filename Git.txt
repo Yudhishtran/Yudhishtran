@@ -18,7 +18,11 @@ git config --global core.compression 2
 git config --global diff.tool vim.diff
 git config -l
 git init
+<<<<<<< HEAD
 
+=======
+-------------------------------------------------------------------------------
+>>>>>>> dev
 //to see hidden files
 
 ls -la
@@ -46,7 +50,11 @@ git branch <future folder name;Dev>
 //change to dev file
 git checkout dev 
 
+<<<<<<< HEAD
 //copy new file to home dir and copy to git's working dir (starts versioning)"
+=======
+//copy new file to home dir (using winscp) and copy to git's working dir (starts versioning)"
+>>>>>>> dev
 
 git commit -am "<desc>"
 
@@ -71,6 +79,13 @@ git log --oneline
 
 git remote add <variable name> <url>    //eg: git remote add Token https://github.com/yudhishtran/Wildtoken.git
 
+<<<<<<< HEAD
+=======
+//push master 
+git push <repo variable name> master
+
+>>>>>>> dev
 //input github username and password
 // since password system is closed  
 //make a token in dev option in github and paste token in password.
+//code is uploaded to online rep

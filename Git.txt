@@ -1,0 +1,76 @@
+GIT COMMNADS:
+
+//basic linux configuration
+
+sudo su -
+yum update
+
+//installing git
+
+yum install git -y
+git --version
+mkdir <dir name>
+cd <dir name>
+git config --global user.name  “yudhishtran”
+git config --global user.email “yudhishtran.e@gmail.com”
+git config --global core.editor vim
+git config --global core.compression 2
+git config --global diff.tool vim.diff
+git config -l
+git init
+
+//to see hidden files
+
+ls -la
+cd .git/
+ls
+
+// copy files from home dir to git's working dir (use Winscp for windows)
+
+cp <dir> .  
+
+// . denotes current dir
+
+FILE STAGING CODES:
+
+git status
+git add <file name>
+git commit -m "<description>" 
+git log --oneline
+git show ####(commitid)
+git branch
+
+//create future l-rep on git
+
+git branch <future folder name;Dev>
+//change to dev file
+git checkout dev 
+
+//copy new file to home dir and copy to git's working dir (starts versioning)"
+
+git commit -am "<desc>"
+
+git log --oneline 
+
+//must show two commitments on future as file is overwritted
+//but one commit in master
+
+//move to master l-rep
+
+git checkout master
+
+//merge future and master reps !! ONLY FROM MASTER REP, DO NOT MERGE FROM FUTURE !!
+
+git merge dev
+
+git log --oneline
+
+//pushing code to online/remote repository
+
+//add variable to your repository url
+
+git remote add <variable name> <url>    //eg: git remote add Token https://github.com/yudhishtran/Wildtoken.git
+
+//input github username and password
+// since password system is closed  
+//make a token in dev option in github and paste token in password.

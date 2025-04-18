@@ -1,7 +1,7 @@
 - 👋 Hi, I’m @Yudhishtran
 - 👀 I’m interested in ... DevOps and Open Source contribution
-- 🌱 I’m currently learning ... Certified Kubernetes Administrator
-- 💞️ I’m looking to collaborate with ... anyone who can help me learn
+- 🌱 I’m currently pursuing ... Certified Kubernetes Administrator
+- 💞️ I’m looking to collaborate with ... people who really love CS
 - 📫 How to reach me ... @yudhishtran -> Instagram
 
 <!---

@@ -1,5 +1,5 @@
 - 👋 Hi, I’m @Yudhishtran
-- 👀 I’m interested in ... DevOps and Open Source contribution
+- 👀 I’m interested in ... DevOps related Open Source contribution
 - 🌱 I’m currently pursuing ... Certified Kubernetes Administrator
 - 💞️ I’m looking to collaborate with ... people who really love CS
 - 📫 How to reach me ... @yudhishtran -> Instagram
